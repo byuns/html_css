@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper1{
+            display: flex;
+            flex-direction: column;
+        }
+        #wrapper3{
+            display: flex;
+            flex-direction: row;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .main1{
+            flex-grow: 3;
+            text-align: right;
+            justify-content:center;
+        }
+        .main2{
+            flex-grow: 1;
+            justify-content:left;
+        }
+        footer{
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div id ="wrapper1">
+        <header>
+            <div><img src="../images/layout_images/01.png" /></div>
+        </header>
+        <div id = "wrapper2">
+            <section>
+                <div><img src="../images/layout_images/02.png" /></div>
+                <nav>
+                    <div><img src="../images/layout_images/03.png" /></div>
+                </nav>
+                </section>
+                <div id = "wrapper3">
+                <article class = "main1">
+                    <div><img src="../images/layout_images/04.png" /></div>
+                    <div><img src="../images/layout_images/05.png"/></div>
+                    <div><img src="../images/layout_images/06.png"/></div>
+                </article>
+                <article class = "main2">
+                    <div><img src="../images/layout_images/07.png"/></div>
+                    <div><img src="../images/layout_images/08.png"/></div>
+                    <div><img src="../images/layout_images/09.png"/></div>
+                    <div><img src="../images/layout_images/10.png"/></div>
+                </article>
+                </div>
+
+            
+            <footer>
+                <img src="../images/layout_images/11.png" />
+            </footer>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
